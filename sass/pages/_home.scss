@@ -6,7 +6,6 @@
   @include respond(tab-port) {
     padding: 20rem 0;
   }
-
 }
 
 .section-features {
@@ -28,7 +27,6 @@
   @include respond(tab-port) {
     padding: 10rem 0;
   }
-
 }
 
 .section-tours {
@@ -39,7 +37,6 @@
   @include respond(tab-port) {
     padding: 20rem 0 10rem 0;
   }
-
 }
 
 .section-stories {
@@ -49,7 +46,6 @@
   @include respond(tab-port) {
     padding: 10rem 0;
   }
-
 }
 
 .section-booking {
@@ -79,23 +75,22 @@
 
   @include respond(tab-land) {
     background-image: linear-gradient(
-      105deg,
-      rgba($color-white, 0.9) 0%,
-      rgba($color-white, 0.9) 65%,
-      transparent 65%
-    ),
-    url(../img/nat-10.jpg);
+        105deg,
+        rgba($color-white, 0.9) 0%,
+        rgba($color-white, 0.9) 65%,
+        transparent 65%
+      ),
+      url(../img/nat-10.jpg);
     background-size: cover;
   }
 
   @include respond(tab-port) {
     background-image: linear-gradient(
-      to right,
-      rgba($color-white, 0.9) 0%,
-      rgba($color-white, 0.9) 65%,
-      
-    ),
-    url(../img/nat-10.jpg);
+        to right,
+        rgba($color-white, 0.9) 0%,
+        rgba($color-white, 0.9) 65%
+      ),
+      url(../img/nat-10.jpg);
   }
 
   &__form {
@@ -103,10 +98,10 @@
     padding: 6rem;
 
     @include respond(tab-land) {
-    width: 65%;
+      width: 65%;
     }
     @include respond(tab-port) {
       width: 100%;
-      }
+    }
   }
 }
